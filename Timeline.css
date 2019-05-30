@@ -1,0 +1,57 @@
+@charset "utf-8";
+@import url("EBGaramond_Regular/stylesheet.css");
+/* CSS Document */
+
+.navbar{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+body{
+	font-size: 12pt;
+	font-family: "EBGaramond Regular";
+}
+p{
+	position: relative;
+}
+
+#copertina{
+    width: 100%;
+	height: 50%;
+	position: relative;
+}
+
+section{
+    padding-left: 5vw;
+    padding-right: 5vw;
+	margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.capital{
+    float: left;
+    font-weight: bolder;
+    font-size: 450%;
+    /* [disabled]text-indent: 3%; */
+    height: 5vh;
+    width: 4vw;
+    line-height: 80%;
+    min-height: 4%;
+    min-width: 12%;
+    text-align: center;
+}
+.anno{
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+}
+
+.linea{
+    background-color: black;
+    width: 50%;
+    height: 2px;
+    margin-left: 25%;
+    /* [disabled]top: -7vh; */
+    position: relative;
+    
+}
