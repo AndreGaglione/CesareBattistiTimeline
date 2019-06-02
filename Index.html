@@ -5,16 +5,18 @@
   <title>Cesare Battisti: Timeline</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link href="Timeline.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 
     <title>Cesare Battisti: la Timeline</title>
 	  
+ 
   </head>
-<body>
+<body class="body">
 	  
  <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
@@ -28,10 +30,13 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#1979">1979</a></li>
-        <li><a href="#">1980</a></li> 
-        <li><a href="#">1980</a></li> 
+        <li class="active"><a href="#0">La notizia</a></li>
+        <li><a href="#1">L'identikit</a></li>
+        <li><a href="#2">La fuga</a></li> 
+        <li><a href="#3">Il ritorno in Francia</a></li> 
+		<li><a href="#4">La vita in Brasile</a></li>
+		<li><a href="#5">La cattura</a></li> 
+		<li><a href="#6">Le reazioni</a></li> 
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">The Project</a></li>
@@ -41,76 +46,311 @@
   </div>
 </nav>
 	
-<div ><img id="copertina" src="Images/cesare_battisti_ansa.jpg" width="auto" height="200px" alt=""/></div>
+<div id="copertina">
+	<video loop muted autoplay>
+    	<source src="Images/TUTTO INSIEME.mp4" type="video/mp4">
+	</video>
+</div>
+	
 <section>
-	<div class="row">
-  <div class="col-lg-3 col-md-3 col-sm-12"><p class="anno">La notizia</p></div>
-  <div class="col-lg-6 col-md-6 col-sm-12"><p class="capital">Il</p><p>12 gennaio 2019 è stato arrestato Cesare Battisti. La notizia è arrivata in Italia tramite rapidi Tweet fra il nostro Presidente degli Interni e il Presidente del Brasile Eduardo Bolsonaro e ha rapidamente invaso tutti i canali di diffusione di notizie presenti nel nostro Paese. Le brevi, poche informazioni che a primo occhio hanno accompagnato la notizia citavano un “arresto in Bolivia”, etichettavano il protagonista come “terrorista” e, soprattutto, parlavano di Giustizia. </br>
-Per gli ascoltatori più anziani e informati questa rappresentava una notizia che concludeva un racconto già in corso da anni, del quale conoscevano i dettagli e le vicende; per i più giovani, invece, questa notizia è piovuta dal cielo come grandine e si sono trovati immersi in una conversazione che includeva politica, legislatura, etica. </br>
+	<div class="row" id="x">
+  <div class="col-lg-3 col-md-3 col-sm-12"><p class="anno" ></p></div>
+  <div class="col-lg-6 col-md-6 col-sm-12" id="firma">A cura di Andrea Gaglione e Federico Cordelli,</br> Introduzione di Maria Fratta </br> Illustrazioni di Federico Cordelli </br>
+	Studenti di Design della Comunicazione del Politecnico di Milano </div>
+  <div class="col-lg-3 col-md-3 col-sm-12"><p class="sub-title"></p></div>
+	</div>	
+	<div class="row">	
+  <div class="col-lg-3 col-md-3 col-sm-12"><p class="sub-title" id="0">La notizia</p></div>
+  <div class="col-lg-6 col-md-6 col-sm-12"><p class="capital">Il</p><p>12 gennaio 2019 è stato arrestato Cesare Battisti. La notizia è arrivata in Italia tramite rapidi tweet fra il nostro Presidente degli Interni e il Presidente del Brasile Eduardo Bolsonaro e ha rapidamente invaso tutti i canali di diffusione di notizie presenti nel nostro Paese. Le brevi, poche informazioni che a primo occhio hanno accompagnato la notizia citavano un “arresto in Bolivia”, etichettavano il protagonista come “terrorista” e, soprattutto, parlavano di Giustizia. </br>
+Per gli ascoltatori più anziani e informati questa rappresentava una notizia che concludeva un racconto già in corso da anni, del quale conoscevano i dettagli e le vicende; per i più giovani, invece, questa notizia è piovuta dal cielo come grandine e si sono trovati immersi in una controversia che includeva politica, legislatura, etica. </br>
 Presto, i canali più audaci si sono presi la responsabilità di spiegare una storia molto complessa, che appartiene ad una storia di altri tempi alla quale raramente viene data voce:
-Cesare Battisti era un esponente dei Partigiani Armati per il Comunismo, una formazione terroristica di estrema sinistra che ha agito durante gli Anni di Piombo, un periodo storico compreso fra la fine degli Anni Sessanta e gli Anni Ottanta del secolo scorso. Il momento storico appena introdotto ha rappresentato per il Novecento, anni di estrema lotta politica, in cui si scontravano ideologie estremiste di sinistra con altre di destra, verificatosi con violente manifestazioni nelle piazze, lotta armata e terrorismo, in cui le fazioni estreme della sinistra si sono scagliate contro quelle di destra. Queste vicende, spesso concluse con omicidi, sono state portate in tribunale, e accompagnate dalle rispettive ideologie, questi processi si sono spesso conclusi in modalità improducenti, equivocabili e prive di effettive sentenze proprio perché accompagnati da ideologie apparentemente troppo forti per essere messi in discussione dalla giustizia. </br>
-Il caso di Cesare Battisti è un campione esplicativo di tutta questa storia, egli evase dal carcere dopo una condanna di primo grado a 12 anni per banda armata e rimase latitante in paesi esteri quali Francia, Messico e Brasile (ne manca qualcuno?) che difendevano la sua causa per ideali di libertà mentre in Italia si continuava a cercare di far luce sul suo caso e conferirgli un’effettiva sentenza giudiziaria. Il suo arresto, infine, è avvenuto grazie al cambio di governo del paese che da x (quanti?) anni stava legittimizzndo i suoi atti, il Brasile; il nuovo presidente, vicino alle ideologie di destra, ha ritenuto necessario concedere l’estradizione al nostro Paese e portarlo in Italia, dove, attraverso i media, è stato mostrato come un trofeo del governo di destra anziché come una effettiva emissione di giustizia.</br></br>
+Cesare Battisti era un esponente dei Partigiani Armati per il Comunismo, una formazione terroristica di estrema sinistra che ha agito durante gli Anni di Piombo, un periodo storico compreso fra la fine degli Anni Sessanta e gli Anni Ottanta del secolo scorso. Il momento storico appena introdotto ha rappresentato per il Novecento, anni di estrema lotta politica, in cui si scontravano ideologie estremiste di sinistra con altre di destra, verificatosi con violente manifestazioni nelle piazze, lotta armata e terrorismo, in cui le fazioni estreme della sinistra si sono scagliate contro quelle di estrema destra. Queste vicende, spesso concluse con omicidi, sono state portate in tribunale, e accompagnate dalle rispettive ideologie, questi processi si sono spesso conclusi in modalità improducenti, equivocabili e prive di effettive sentenze proprio perché accompagnati da ideologie apparentemente troppo forti per essere messi in discussione dalla giustizia. </br>
+Il caso di Cesare Battisti è un campione esplicativo di tutta questa storia, egli evase dal carcere dopo una condanna di primo grado a 12 anni per banda armata e rimase latitante in paesi esteri quali Francia, Messico e Brasile (ne manca qualcuno?) che difendevano la sua causa per ideali di libertà mentre in Italia si continuava a cercare di far luce sul suo caso e conferirgli un’effettiva sentenza giudiziaria. Il suo arresto, infine, è avvenuto grazie al cambio di governo del Paese che da x (quanti?) anni stava legittimizzando i suoi atti, il Brasile; il nuovo presidente, vicino alle ideologie di destra, ha ritenuto necessario concedere l’estradizione al nostro Paese e portarlo in Italia, dove, attraverso i media, è stato mostrato come un trofeo del governo di destra anziché come una effettiva azione di giustizia.</br></br>
 
 Vogliamo prenderci la responsabilità di raccontare anche noi questo racconto; facendo luce sulle modalità con cui la storia, ai giorni odierni, è stata narrata e seguendo il filone polemico che fra luci ed ombre ha profondamente segnato la storia dell’Italia con le sue sfumature che concernono dialettiche politiche, dibattiti legislativi e controversie etiche ed ideologiche.</p></div>
-  <div class="col-lg-3 col-md-3 col-sm-12">.col-6 .col-md-4</div>
+  <div class="col-lg-3 col-md-3 col-sm-12"></div>
 	</div>
 	</section>	
 
-<div class="linea"></div>
+<div class="linea" id="1"></div>
 <section>
 	<div class="row">
-  <div class="col-lg-3 col-md-3 col-sm-12"><p class="anno" id="1954">Chi è Cesare Battisti</p></div>
-  <div class="col-lg-6 col-md-6 col-sm-12"><p class="capital">C</p><p>esare Battisti è nato nel 1954 a Cisterna di Latina. Da adolescente si iscrisse al Partito Comunista Italiano, fece parte della FGCI, il gruppo giovanile del PCI, ma ne uscì poco dopo. Nel 1968 cominciò il liceo classico, ma lo lasciò nel 1971 facendosi conoscere dalle forze dell’ordine per piccoli crimini: nel 1972 venne arrestato per la prima volta per una rapina, due anni dopo venne arrestato di nuovo per rapina con sequestro di persona. E nel 1977 finì di nuovo in carcere, a Udine: lì conobbe Arrigo Cavallina, fondatore di un gruppo terrorista di estrema sinistra chiamato Proletari armati per il comunismo (PAC).
+  <div class="col-lg-3 col-md-3 col-sm-12"></div>
+  <div class="col-lg-6 col-md-6 col-sm-12">	<p class="anno"><img src="Images/illustrazione1.gif" width="100%" height="100%" alt=""/>Parte 1.</br> <em>L'identikit</em> </p></div>
+  <div class="col-lg-3 col-md-3 col-sm-12"></div>
+</div>
 
-Negli articoli in cui si parla di Battisti si ripete spesso che fino a un certo punto lui fu un comune delinquente e che il 1977 e l’incontro con Cavallina furono i momenti in cui avvenne la sua politicizzazione. Battisti ha sempre negato questa versione, dicendo che la sua famiglia era comunista e che lui militava da sempre: «Ho fatto parte di Lotta continua, poi di Autonomia operaia. Sono finito dentro per una rapina, era un esproprio. Gli espropri non si rivendicavano. Non mi sono politicizzato in carcere, semmai in carcere ho conosciuto persone attraverso le quali sono entrato nei PAC».
-
-Uscito dal carcere, a Milano Battisti partecipò attivamente alle azioni dei PAC con rapine a banche e a supermercati, sabotaggi alle fabbriche, varie aggressioni e omicidi. Per quattro di questi omicidi, i processi – in tutti i gradi di giudizio – hanno poi riconosciuto la partecipazione, diretta o indiretta, di Battisti. I processi si celebrarono comunque senza la sua presenza: Battisti fu arrestato nel 1979 per possesso illecito di armi e banda armata, evase nel 1981 dal carcere di Frosinone e lasciò l’Italia, per non tornarci più.
-
-Gli omicidi nei quali Cesare Battisti risultava essere coinvolto (e per i quali venne condannato in contumacia a due ergastoli) avvennero tra il 1978 e il 1979. Il 6 giugno del 1978 venne ucciso Antonio Santoro, maresciallo della polizia penitenziaria, accusato dai PAC di avere maltrattato e torturato alcune persone detenute. Le sentenze stabilirono che Battisti aveva sparato a Santoro insieme a una complice. Il 16 febbraio del 1979 in provincia di Venezia viene ucciso Lino Sabbadin, un macellaio. Le sentenze in questo caso hanno stabilito che Battisti aveva agito da “copertura armata”. Lo stesso giorno, a Milano, venne ucciso il gioielliere Pierluigi Torregiani. Secondo le sentenze Battisti era stato tra gli ideatori e gli organizzatori dell’agguato. Nel corso di questa sparatoria, un colpo sparato dal gioielliere ferì suo figlio quindicenne, Alberto Torregiani, che da allora vive su una sedia a rotelle. Sia Sabbadin che Torregiani nei mesi precedenti alla loro morte avevano ucciso dei rapinatori difendendosi durante dei tentativi di rapina. Il 19 aprile del 1979 a Milano, venne ucciso l’agente della DIGOS Andrea Campagna. Secondo le sentenze, Battisti fu l’esecutore materiale dell’omicidio.
-al di là delle sentenze, Battisti ha sempre negato la sua partecipazione agli omicidi. Ha confermato di aver cominciato a fare “politica illegale” fin da giovanissimo, di aver finanziato i movimenti con furti e piccole rapine, ma ha detto di non aver mai sparato a nessuno e che nel 1978 non faceva più parte dei PAC per cui, sempre secondo le sue dichiarazioni, collaborava al giornale Senza galere: «I PAC avevano un giornale, Senza galere. Significava senza carceri, nel senso più largo, quello di Michel Foucault, di ghetto, di favela. Io entrai per collaborare con quel giornale». L’abbandono dei PAC, secondo quanto disse, avvenne a seguito dell’assassinio di Aldo Moro, rapito e ucciso dalle Brigate Rosse.
-	  </p></div>
-  <div class="col-lg-3 col-md-3 col-sm-12">.col-6 .col-md-4</div>
-	</div>
-	</section>
-
-	<div class="linea"></div>
-	<section>
 	<div class="row">
-  <div class="col-lg-3 col-md-3 col-sm-12"><p class="anno" id="1981">La fuga: prima in Francia poi in Messico</p></div>
-  <div class="col-lg-6 col-md-6 col-sm-12"><p class="capital"></p><p> </p></div>
-  <div class="col-lg-3 col-md-3 col-sm-12">.col-6 .col-md-4</div>
+  <div class="col-lg-3 col-md-3 col-sm-12">
+	  <p class="sub-title">Chi è Cesare Battisti</p>
+
+	
+		</div>
+
+<div class="col-lg-6 col-md-6 col-sm-12"><p class="capital">C</p><p>esare Battisti è nato nel 1954 a Cisterna di Latina. Da adolescente si iscrive al PCI (Partito Comunista Italiano) facendo parte della FGCI, il gruppo giovanile del PCI, uscendoci però subito dopo. Nel 1968 inizia il Ginnasio Classico, per poi abbandonarlo nel 1971. Schedato per piccoli crimini, sin da giovanissimo si mette nei guai: a 18 anni viene arrestato per la prima volta per una rapina, due anni dopo di nuovo per rapina con sequestro di persona. Nel 1977 finisce di nuovo in carcere, a Udine. In cella conosce Arrigo Cavallina, fondatore di un gruppo terrorista di estrema sinistra chiamato Proletari armati per il comunismo (PAC).  A chi dice che è stato quello il momento in cui si è politicizzato Battisti ha sempre risposto: </p> 
+  <p class="quote">«Ho fatto parte di Lotta continua, poi di Autonomia operaia. Sono finito dentro per una rapina, era un esproprio. Gli espropri non si rivendicavano. Non mi sono politicizzato in carcere, semmai in carcere ho conosciuto persone attraverso le quali sono entrato nei PAC». </p>
+  <p> Uscito dal carcere, a Milano Battisti inizia a militare con i PAC con rapine a banche e a supermercati, sabotaggi alle fabbriche, varie aggressioni e omicidi. Per quattro di questi omicidi, i processi – in tutti i gradi di giudizio – hanno poi riconosciuto la sua partecipazione, diretta o indiretta. 
+   <img src="Images/PIOMBO.jpg" width="100%" height="100%" alt="" id="piombo"/> 
+ 
+ 
+</div>
+  <div class="col-lg-3 col-md-3 col-sm-12"> </div>
 	</div>
+	
+<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-12"><p class="sub-title">I reati</p></div>
+  <div class="col-lg-6 col-md-6 col-sm-12"><p> Il primo assassinio di cui è accusato avviene il 6 giugno del 1978, quando viene ucciso Antonio Santoro, maresciallo della polizia penitenziaria, accusato dai PAC di avere maltrattato e torturato alcune persone detenute. Le sentenze stabiliscono che è stato Battisti a sparare a Santoro, insieme a una complice. Gli altri due omicidi avvengono il 16 febbraio del 1979. In provincia di Venezia quel giorno viene ucciso Lino Sabbadin, un macellaio. I giudici hanno stabilito che Battisti ha agito da “copertura armata”. Lo stesso giorno, a Milano, viene giustiziato il gioielliere Pierluigi Torregiani. Secondo le sentenze Battisti è uno degli ideatori e organizzatori dell’assassinio. Durante la sparatoria un colpo uscito dalla pistola del gioielliere ferisce  suo figlio appena quindicenne, Alberto Torregiani, che da allora vive su una sedia a rotelle. Sia Sabbadin che Torregiani nei mesi precedenti alla loro morte avevano ucciso dei rapinatori difendendosi durante dei tentativi di rapina. Questi omicidi sono stati quindi premeditati per vendetta e per lanciare un messaggio. Il 19 aprile del 1979 a Milano viene ucciso l’agente della DIGOS <a href="http://www.vittimeterrorismo.it/vittime/andrea-campagna/">Andrea Campagna</a>. Secondo le sentenze, Battisti è stato l’esecutore materiale dell’omicidio. Battisti comunque ha sempre negato la sua partecipazione agli omicidi, nonostante le sentenze. Ha confermato di aver cominciato a fare “politica illegale” fin da giovanissimo, di aver finanziato i movimenti con furti e piccole rapine, ma ha detto di non aver mai sparato a nessuno e che nel 1978 non faceva più parte dei PAC per cui, sempre secondo le sue dichiarazioni, collaborava al giornale Senza Galere: <p class="quote">«I PAC avevano un giornale, Senza Galere. Significava senza carceri, nel senso più largo, quello di Michel Foucault, di ghetto, di favela. Io entrai per collaborare con quel giornale». </p> <p>L’abbandono dei PAC, secondo quanto ha detto, è avvenuto a seguito dell’assassinio di Aldo Moro, rapito e ucciso dalle Brigate Rosse.  </p></div>
+  <div class="col-lg-3 col-md-3 col-sm-12"></div>
+	</div>	
 	</section>
 
-
-	<div class="linea"></div>
+	<div class="linea" id="2"></div>
 	<section>
+		<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-12"></div>
+  <div class="col-lg-6 col-md-6 col-sm-12"><p class="anno"><img src="Images/illustrazione3.gif" width="100%" height="100%" alt=""/>Parte 2.</br> <em>Periodo di fuga</em> </p></div>
+  <div class="col-lg-3 col-md-3 col-sm-12"></div>
+	</div>	
 	<div class="row">
-  <div class="col-lg-3 col-md-3 col-sm-12"><p class="anno" id="1979">Il ritorno in Francia e la vita da intellettuale</p></div>
-  <div class="col-lg-6 col-md-6 col-sm-12"><p class="capital">B</p><p> https://www.carmillaonline.com/archives/1500_firmatari.html</p></div>
-  <div class="col-lg-3 col-md-3 col-sm-12">.col-6 .col-md-4</div>
+  <div class="col-lg-3 col-md-3 col-sm-12"><p class="sub-title" >La fuga: prima in Francia poi in Messico</p></div>
+		<div class="col-lg-6 col-md-6 col-sm-12"><p class="capital">"</p><p class="quote">Ci sono stati numerosi casi di tortura durante questo processo, con il supplizio dell’acqua ma io non sono stato torturato. In nessuna occasione durante questo processo mi hanno fatto una sola domanda in relazione agli omicidi. I poliziotti sapevano perfettamente che non li avevo commessi. Di conseguenza fui condannato nel 1981 per “sovversione contro l’ordine dello Stato” che corrispondeva a verità e che io non negai durante il processo. Sono stato condannato a 13 anni e 6 mesi di prigione, perché all’epoca le pene d’accordo con le allora nuove leggi d’urgenza venivano moltiplicate per tre per gli attivisti. Questo tempo fu poi ridotto a 12 anni. Il mio processo, l’unico vero processo al quale ebbi diritto in Italia fu così concluso. Mi trovavo in una delle “prigioni speciali” che erano state costruite per noi che venivamo definiti “terroristi”. Come prova del fatto che la giustizia italiana riconosceva in quell’epoca la mia innocenza riguardo alle accuse di omicidio, fui trasferito in un carcere per “coloro i cui atti non causarono morte”. Ma il procuratore Armando Spataro che capeggiava il sistema di torture nell’area di Milano, continuava a darmi fastidio e bloccò la mia corrispondenza con la mia famiglia. Seppi con tre mesi di ritardo da una visita di mia sorella che mio fratello Giorgio era morto in un incidente di lavoro. Lo choc per me è stato immenso. Quello e il fatto che ogni giorno nell’ora d’aria i prigionieri sparissero senza motivo, per ritornare in seguito mesi dopo abbrutiti e muti o addirittura senza far ritorno, mi fece prendere coscienza del fatto che le leggi per noi non sarebbero mai state normali. A causa di questo e solo per questo presi la decisione di fuggire. E non per “fuggire dalla giustizia” dato che il mio processo era terminato. Sono evaso il 4 ottobre del 1981 e lasciai fogli in bianco firmati ai miei vecchi compagni per il processo alla mia evasione. Me ne andai in Francia."</p>
+		  <p class="didas">Estratto da <a href="http://www.vuotoaperdere.org/articoli/Articolo.asp?ArtID=130">"Lettera di cesare Battisti al Supremo Tribunale Federale"</a></p>
+		<p>Così insieme a Moccia, mafioso appartenente all’omonimo clan, evade dal carcere di Frosinone, grazie all’aiuto di due compagni riusciti a penetrare ed uscire dal Carcere di Frosinone sotto copertura e senza sparare neanche un colpo di pistola. Fugge prima a Parigi e poi in Messico a Puerto Escondido, dove conosce la compagna Laurence dalla quale ha due figlie. In Messico fonda il giornale Via Libre, che trasferirà a Parigi nel 1990. Intanto la Giustizia Italiana lo condanna in contumacia nel 1985 (sentenza confermata dalla Cassazione nel 1991), perché giudicato responsabile di quattro omicidi e di vari altri reati. Viene quindi condannato a scontare l’ergastolo con sentenza della Corte d'Assise d'appello di Milano nel 1988 per omicidio plurimo, reato di banda armata, rapina e detenzione di armi.
+</p>
+		</div>
+  <div class="col-lg-3 col-md-3 col-sm-12"> <img src="Images/sbarre.jpeg" width="100%" height="auto" alt=""/></div>
 	</div>
 	</section>
 
 
-	<div class="linea"></div>
+	<div class="linea" id="3"></div>
 	<section>
+
+<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-12"></div>
+  <div class="col-lg-6 col-md-6 col-sm-12"><p class="anno"><img src="Images/illustrazione2.gif" width="100%" height="" alt=""/>Parte 3.</br> <em>La vita da intellettuale</em> </p></div>
+  <div class="col-lg-3 col-md-3 col-sm-12"></div>
+	</div>	
+
 	<div class="row">
-  <div class="col-lg-3 col-md-3 col-sm-12"><p class="anno" id="1985">La fuga in Brasile</p></div>
-  <div class="col-lg-6 col-md-6 col-sm-12"><p class="capital">B</p><p>attisti si è sempre dichiarato innocente. Nato a Cisterna di Latina il 18 dicembre 1954, la sua è una vita segnata da mille peripezie, fughe, colpi di scena. E richieste di estradizione partite da Roma e andate in fumo. Nei primi anni '70 abbandona la scuola e inizia la carriera criminale. Nel 1972 il primo arresto per una rapina a Frascati e due anni dopo per rapina con sequestro di persona a Sabaudia. Nel '76 si trasferisce a Milano e partecipa a varie azioni criminali. Viene arrestato di nuovo, sempre per rapina, e rinchiuso nel carcere di Udine dove conosce Arrigo Cavallina, ideologo dei Pac. In questi anni partecipa alle azioni del gruppo eversivo, che gli costeranno un'altra volta la libertà. Nell'ambito del processo per l'omicidio Torregiani viene condannato nel '79 a 13 anni e 5 mesi: detenuto nel carcere di Frosinone, nel 1981 evade grazie ad un assalto dei terroristi. La giustizia va comunque avanti e nell'85 lo condanna in contumacia all'ergastolo per vari reati legati alla lotta armata e per i quattro omicidi, sentenza confermata dalla Cassazione nel 1991.     </p></div>
-  <div class="col-lg-3 col-md-3 col-sm-12">.col-6 .col-md-4</div>
+  <div class="col-lg-3 col-md-3 col-sm-12"><p class="sub-title">Il ritorno in Francia e la vita da intellettuale</p>
+		</div>
+  <div class="col-lg-6 col-md-6 col-sm-12"><p class="capital">B</p><p> 
+	  attisti torna in Francia nel 1990. Nella capitale francese condivide la sua condizione insieme ad altri latitanti italiani che in Francia in quegli anni vivono protetti dalla dottrina Mitterand. Nel frattempo termina un romanzo e vive traducendo racconti di autori noir francesi. Poco tempo dopo viene arrestato a seguito di una richiesta di estradizione del governo italiano. Dopo solo quattro mesi, nell’aprile del 1991 la Chambre d’accusation di Parigi lo dichiara non estradabile. Tra le motivazioni, la dottrina Mitterrand, che garantisce  protezione ai latitanti per motivi politici, e il fatto che, secondo la magistratura francese, le prove a suo carico sono "contraddittorie" e "degne di una giustizia militare". Nel frattempo, nel 1993,  Gallimard pubblica nella sua Série Noire il suo romanzo <em>"Travestito da uomo"</em>. Nel 1997 è uno dei fuoriusciti dei movimenti politici dell'estrema sinistra italiana rifugiati in Francia, riuniti nell'associazione XXI secolo, che chiedono all'allora presidente Oscar Luigi Scalfaro una soluzione politica "di indulto o di amnistia” dei reati loro addebitati. La sua <a href="http://www.cacciatoredilibri.com/trovabilita-dei-libri-di-cesare-battisti-il-punto-della-situazione/">attività letteraria</a> prosegue con libri in cui espone la sua analisi sull'antagonismo radicale, il più significativo dei quali è <em>"Orma rossa"</em>. In Francia ottiene la naturalizzazione, che gli viene però ritirata nel 2004, poco prima del conferimento ufficiale del passaporto francese che ne attesti la cittadinanza.
+
+
+<div>
+	<img src="Images/Firmacopie.jpg" width="100%" height="auto" alt=""/> 
+
+</div>
+	  <p>
+	  </p>
+
+		  
+	 
+	  </div>
+  <div class="col-lg-3 col-md-3 col-sm-12"><p class="title">Le presunte contraddizioni del pentito Mutti</p><p class="lateral">Mutti affermò, cosa ripresa dalla sentenza, che l’agente Santoro era stato ucciso da Enrica Migliorati (precedentemente accusò Giuseppe Memeo e un’altra donna, ma poi cambiò versione) e da Battisti, ma in un altro verbale afferma invece di essere stato lui, in un altro è coinvolto anche Diego Giacomin; addusse come prova il fatto che Battisti glielo avrebbe rivelato in confidenza. In una delle versioni una testimone inizialmente parlò di un uomo alto 1,90, versione ripresa da Mutti e poi abbandonata: un complice non riconosciuto avrebbe agito con Memeo (o con una donna), e venne descritto come biondo, con la barba e alto 1,90 m; l’uomo venne identificato poi con Battisti, che tuttavia è poco più alto di 1,60 m, non aveva la barba (anche se poteva averla posticcia secondo il pentito) e ha i capelli castani. Dopo 10 anni, nel 1993, una terrorista denunciata da Mutti come complice, venne assolta per questo delitto.
+Mutti affermò prima che Battisti avesse ucciso Sabbadin di persona, ma dopo la confessione di un altro militante, Diego Giacomin, sostenne invece di averlo ucciso lui stesso assieme a Giacomin, mentre Battisti faceva da copertura armata, guidando l’auto; Battisti afferma che l’autista fosse invece una donna (senza farne il nome; un’altra complice, Paola Filippi, ebbe l’ergastolo per concorso ma riparò in Francia), adducendo altre testimonianze.
+Lo stesso Mutti attribuì a Battisti l’omicidio di Campagna, con lui e Claudio Lavazza come complici; affermò di averlo visto, ma non ricorda se direttamente o dentro lo specchietto retrovisore.
+«Io e un altro compagno, Claudio Lavazza, operaio come me, abbiamo osservato tutto dall’auto in cui li attendevamo. Non mi ricordo se ho girato la testa o se ho osservato la scena dallo specchietto retrovisore della nostra Simca 1300. Ma l’ho visto mentre sparava.»</p></div>
 	</div>
+
+	<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-12"><p class="sub-title">Il caso Battisti</p></div>
+  <div class="col-lg-6 col-md-6 col-sm-12"><p class="capital">Il</p><p>Il cosiddetto "caso Battisti" esplode il 10 febbraio 2004 quando viene arrestato a Parigi, inizialmente con l'accusa di aver litigato con un vicino di casa. L'arresto viene reso possibile anche in virtù del "patto Castelli-Perben" del 2002 che, per reati commessi prima del 1982, limita l'estradizione solo per i casi di eccezionale gravità.</br>
+	  Se i giornali francesi, già dai giorni successivi al 10 febbraio 2004, riservano ampio spazio alla notizia, è solo in seguito alla decisione della Chambre d'instruction del 4 marzo - e dunque al possibile non soddisfacimento della domanda d'estradizione italiana – che quello che fino ad allora per la parte italiana era stato solo un breve fatto di cronaca legato all'arresto di un ex-militante di un gruppo armato di estrema sinistra, si pone al centro delle dinamiche internazionali tra Francia e Italia come <em>affaire</em> giudiziario e mediatico. Le Monde e La Repubblica sono due tra le più importanti testate che si inseriscono nel dibattito pubblico, assumendo nel medesimo tempo, da un lato il ruolo di vettori e dall'altro quello di costruttori d'opinione. Va inoltre specificato che nel caso analizzato, benché si possa parlare di orientamento complessivo di cui una testata si fa portatrice, le <em>unes</em> non rappresentano in alcun caso la pluralità di opinioni ospitate ed espresse all'interno dei giornali. Il trattamento mediatico riservato alla notizia della concessione della libertà provvisoria è il medesimo, entrambi i giornali infatti aprono una finestra visiva e di testo sulle rispettive prime pagine, rinviando il lettore all'approfondimento interno. Benché accomunate da un punto di vista tecnico, il linguaggio, e di conseguenza il senso, veicolato dagli articoli riflette le controverse prese di posizioni che dividono i due maggiori schieramenti d'opinione. </br>
+Appena arrestato la rivista letteraria Carmilla, l’11 febbraio 2004, lancia una richiesta di adesioni per la liberazione di Battisti. Nell’<a href="https://www.carmillaonline.com/archives/1500_firmatari.html">appello</a>, tra le altre cose c’è scritto: «Dal momento della sua fuga dall’Italia, prima in Messico e poi in Francia, Cesare Battisti si è dedicato a un’intensa attività letteraria, centrata sul ripensamento dell’esperienza di antagonismo radicale che vide coinvolti centinaia di migliaia di giovani italiani e che spesso sfociò nella lotta armata. La sua opera è nel suo assieme una straordinaria e ineguagliata riflessione sugli anni ’70, quale nessuna forza politica che ha governato l’Italia da quel tempo a oggi ha osato tentare». In una settimana le firme si sommano con una velocità strepitosa, arrivando a raggiungere le 1500. L’appello contiene firme autorevoli, come quelle di Wu Ming, Valerio Evangelisti, Massimo Carlotto, Tiziano Scarpa, Nanni Balestrini, Daniel Pennac, Giuseppe Genna, Giorgio Agamben, Vauro e tanti altri. </br></p>
+
+
+ 	  </div>
+  <div class="col-lg-3 col-md-3 col-sm-12">	<img src="Images/battistilibero.gif" width="100%" height="" alt=""/></div>
+	</div>
+
+	<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-12"><p class="sub-title">La fuga</p></div>
+  <div class="col-lg-6 col-md-6 col-sm-12"><p class="capital">La</p> <p>magistratura italiana richiede nuovamente la sua estradizione, che viene concessa dalle autorità francesi il 30 giugno: poco prima il presidente Jacques Chirac, successore di Mitterrand, aveva palesato il suo consenso all'estradizione in Italia in caso di esito negativo del ricorso in Cassazione presentato dai legali di Battisti. Il Consiglio di Stato della Repubblica francese e la Corte di Cassazione, con due successive decisioni sulla richiesta di estradizione, autorizzano la consegna di Battisti alle autorità italiane, segnando la fine della cosiddetta dottrina Mitterrand. A seguito di tale provvedimento francese Battisti, nel frattempo liberato, torna latitante, lasciando la Francia e facendo perdere le sue tracce. Prima tenta di raggiungere l'Africa, passando per la Corsica, via mare su una barca, poi però torna indietro e con l'aiuto di amici, riesce a raggiungere il Sudamerica, fermandosi in Brasile. Gli avvocati di Battisti denunciano la violazione del divieto di doppio giudizio (ne bis in idem) in quanto nel 1991 Battisti era stato giudicato non estradabile da un tribunale francese, con pronuncia in via definitiva.</p>
+	  
+	<p class="quote">“La dichiarazione di Jacques Chirac, due giorni dopo la decisione della Corte d’appello, è riuscita a togliermi ogni speranza… Di fronte al baratro, cosa mi resta? Soltanto i miei figli e la sottile possibilità, un giorno forse, di potermi spiegare sulle mie responsabilità politiche e di tornare infine su quel passato che l’Italia vorrebbe, mi pare, seppellire per sempre, al prezzo di una contraffazione storica.
+Non lascerò la Francia, non saprei farlo, è il mio Paese e non ne vedo altri nel mio futuro. Continuerò a battermi affinché sia resa giustizia all’uomo e alla storia. (Con la prigione a vita) sarebbe la famiglia, i figli, altre vite a pagare. Non posso correre questo rischio, non rivedere più i miei figli, il Paese dove sono nati, l’idea mi risulta insopportabile.”</p>	
+	 	</div>
+  <div class="col-lg-3 col-md-3 col-sm-12"></div>
+	</div>
+
 	</section>
 
-	<div class="linea"></div>
+
+	<div class="linea" id="4"></div>
 	<section>
+ <div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-12"></div>
+  <div class="col-lg-6 col-md-6 col-sm-12"><p class="anno"><img src="Images/illustrazione4.gif" width="100%" height="" alt=""/>Parte 4.</br> <em>Tra le spiagge e le prigioni del Brasile</em> </p></div>
+  <div class="col-lg-3 col-md-3 col-sm-12"></div>
+	</div>	
 	<div class="row">
-  <div class="col-lg-3 col-md-3 col-sm-12"><p class="anno" id="1979">La fine della latitanza</p></div>
-  <div class="col-lg-6 col-md-6 col-sm-12"><p class="capital">B</p><p>attisti si è sempre dichiarato innocente. Nato a Cisterna di Latina il 18 dicembre 1954, la sua è una vita segnata da mille peripezie, fughe, colpi di scena. E richieste di estradizione partite da Roma e andate in fumo. Nei primi anni '70 abbandona la scuola e inizia la carriera criminale. Nel 1972 il primo arresto per una rapina a Frascati e due anni dopo per rapina con sequestro di persona a Sabaudia. Nel '76 si trasferisce a Milano e partecipa a varie azioni criminali. Viene arrestato di nuovo, sempre per rapina, e rinchiuso nel carcere di Udine dove conosce Arrigo Cavallina, ideologo dei Pac. In questi anni partecipa alle azioni del gruppo eversivo, che gli costeranno un'altra volta la libertà. Nell'ambito del processo per l'omicidio Torregiani viene condannato nel '79 a 13 anni e 5 mesi: detenuto nel carcere di Frosinone, nel 1981 evade grazie ad un assalto dei terroristi. La giustizia va comunque avanti e nell'85 lo condanna in contumacia all'ergastolo per vari reati legati alla lotta armata e per i quattro omicidi, sentenza confermata dalla Cassazione nel 1991.     </p></div>
-  <div class="col-lg-3 col-md-3 col-sm-12">.col-6 .col-md-4</div>
+		<div class="col-lg-3 col-md-3 col-sm-12"><p class="sub-title" >La prigione in Brasile</p></div>
+  <div class="col-lg-6 col-md-6 col-sm-12"><p class="capital">N</p><p>el frattempo fuggito in Brasile, Battisti si sposa e ha tre figli. Il 18 marzo 2007 però viene arrestato a Copacabana a seguito di indagini congiunte di agenti francesi e carabinieri del Raggruppamento Operativo Speciale. Parte la terza richiesta di estradizione. Battisti chiede lo status di rifugiato politico. Il 28 novembre 2008 il Comitato nazionale per i rifugiati del governo brasiliano, organo di prima istanza per le richieste di asilo politico, respinge la richiesta dell'ex terrorista. L'estradizione si avvicina sempre più. </br>
+  Inaspettatamente, il 13 gennaio 2009, il Brasile decide di accordare lo status di rifugiato politico a Cesare Battisti. Il ministro della giustizia Tarso Genro, esprimendosi in modo contrario rispetto alla decisione dal CONARE (l'organismo brasiliano che esamina le richieste di asilo politico, equivalente dell'avvocatura dello Stato) votata due mesi prima, ha motivato la decisione su quello che definisce il fondato timore di persecuzione di Battisti per le sue idee politiche, nonché sui dubbi espressi sulla regolarità del procedimento giudiziario nei suoi confronti. Il governo brasiliano afferma che Battisti potrà, forse, essere estradato solo se l'Italia commuti i due ergastoli in una pena massima di 30 anni di carcere, come proposto (salvo poi ritrattare) anche dal ministro italiano Clemente Mastella. Il Tribunale supremo federale non scarcera Battisti, contestando la ricostruzione del Ministro e per il fatto che l'ex PAC è entrato in Brasile irregolarmente con un documento falso, per cui aveva un processo pendente, ma ha rifiutato l’estradizione. Il Procuratore generale della Repubblica Brasiliana Antonio Fernando de Souza, che nel 2008 si era espresso a favore dell'estradizione, considera legittima e costituzionale la decisione del governo brasiliano e chiede l'archiviazione del processo di estradizione di Cesare Battisti. La decisione del governo brasiliano suscita aspre reazioni sia da parte del governo italiano sia da parte dell'opposizione di centro-sinistra sfociate nella mozione bipartisan, approvata all'unanimità dal Parlamento, per richiedere la revoca dello status di rifugiato politico dell'ex terrorista. Il Presidente della Repubblica Giorgio Napolitano in seguito invia una lettera al suo omologo Luiz Inácio Lula da Silva in cui esprime il proprio stupore e rammarico per la decisione del governo brasiliano. Sulla decisione brasiliana interviene da ultimo il Parlamento europeo, che approva una risoluzione che chiede al governo brasiliano di tenere conto delle sentenze italiane sul caso Battisti. In attesa della pronuncia definitiva del Tribunale supremo, Battisti tiene per 10 giorni uno sciopero totale della fame. Il 18 novembre 2009 la più alta istituzione giurisdizionale del Brasile, il Supremo Tribunal Federal (Stf) brasiliano, dichiara illegittimo lo status di rifugiato politico concesso dal governo. La pronuncia, 5 voti favorevoli e 4 contrari, è favorevole all'estradizione di Battisti in Italia, anche se lascia al presidente Luiz Inacio Lula da Silva la parola definitiva sulla sua effettiva esecuzione. </br>
+  Il 5 marzo 2010 il Tribunale di Rio de Janeiro condanna Battisti a due anni da scontare in regime di semilibertà per uso di passaporto falso. Il 16 aprile il Tribunale supremo pubblica il testo della sentenza con la quale aveva dato il via all'estradizione. La decisione finale rimane nelle mani di Lula che, nell'ultimo giorno della sua presidenza, il 31 dicembre, annuncia di non voler concedere l'estradizione sulla scia di quanto scritto dall'Avvocatura generale dello Stato che citava "clausole del trattato di estradizione in vigore tra Brasile e Italia". Subito partono grandi critiche da parte dell'Italia. Per il premier Silvio Berlusconi "la vicenda non è chiusa". </br></p>
+  <img src="Images/pro3.jpeg" width="100%" height="" alt=""/>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12">
+	<img src="Images/pro1.jpeg" width="100%" height="" alt=""/> 
+	<img src="Images/pro2.jpeg" width="100%" height="" alt=""/>
+	<img src="Images/pro4.jpeg" width="100%" height="" alt=""/> 
+	<img src="Images/pro5.jpeg" width="100%" height="" alt=""/>
+	<img src="Images/comitato.jpg" width="100%" height="" alt=""/>
+	</div>
+</div>
+<hr />
+<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-12"><p class="sub-title">La scarcerazione</p></div>
+  <div class="col-lg-6 col-md-6 col-sm-12"><p><p class="capital">N</p><p>el 2011 la Presidenza passa nelle mani di Dilma Roussef che segue le orme del suo predecessore confermandone la decisione in merito al caso Battisti. É il 22 giugno quando Battisti riceve il permesso di soggiorno brasiliano e incomincia una nuova vita. Si trasferisce nell'elegante quartiere Jardins di San Paolo e collabora con la Central unica dos trabalhadores (Cut), il sindacato da cui era iniziata l'ascesa politica di Lula. La rete sociale di Battisti diventa ancora più solida grazie alla nomina di uno dei suoi legali, Luis Roberto Barroso a giudice della Corte suprema da parte del Presidente.</br></p>
+<hr />    
+<img src="Images/match.jpeg" width="100%" height="" alt=""/>
+	<p class="quote">"Dall'Italia non mi aspetto proprio niente, voglio solo vivere la mia vita, scrivere e pubblicare libri. Vorrei solo che l'Italia riconoscesse le sue colpe, le torture che ha commesso, i morti che ha sulla coscienza come disse una volta il Presidente Cossiga, che parlò di una guerra civile di debole intensità e fu presto trattato da pazzo quando disse che la guerra era finita e ognuno avrebbe potuto tornare a casa sua. Io ebbi il coraggio di attaccare i veri responsabili e divenni il capro espiatorio."</p>
+	</div>
+  <div class="col-lg-3 col-md-3 col-sm-12"></div>
+	</div>
+
+
+<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-12"><p class="sub-title">Un anno travagliato tra nozze e arresto</p></div>
+  <div class="col-lg-6 col-md-6 col-sm-12"><p><p class="capital">N</p><p>el 2015 la sentenza del giudice federale Averci Rates Mendes de Abreu revoca il permesso di soggiorno, con la motivazione che un cittadino straniero condannato in via definitiva nel proprio Paese d'origine non può ottenere il visto di residenza permanente, ma solo lo status di rifugiato, negato a Battisti in ultima istanza. </br>
+Tuttavia il giudice aggiunge: «gli istituti di espulsione e estradizione sono ben distinti. L'espulsione non contraddice la decisione del presidente della Repubblica di non estradare, visto che non è necessaria la consegna del cittadino straniero al suo Paese di origine, in questo caso l'Italia, potendo essere espulso verso un altro Paese disposto ad accoglierlo». Si riferisce alla Francia (dove avrebbe buone possibilità di ottenere la cittadinanza), al Messico o qualsiasi altro Paese voglia farlo entrare. </br>
+L'avvocato di Battisti, Igor Sant'Anna Tamasauskas, impugna il provvedimento, in quanto l'atto di Lula, approvato dal supremo tribunale, avrebbe valore costituzionale, tale da poter essere annullato solo da una revisione processuale, accordata dallo stesso tribunale.
+Battisti viene poi arrestato e fermato dalla polizia nella sua casa di Embu das Artes, dove si trovava con l’ultimo figlio e la nuova compagna, ma rilasciato dopo poche ore, quando il Tribunale Regionale Federale accoglie il ricorso dell'avvocato Sant'Anna Tamasauskas,  sospendendo l'ordine di espulsione, con la motivazione che un giudice federale non può espellere andando contro il Tribunale supremo o la decisione del Presidente, e che solo lo stesso Supremo Tribunal Federal potrebbe revocare il permesso di residenza come lavorante immigrato all'ex terrorista, esistendo inoltre il divieto di doppio giudizio, a suo tempo non considerato nell'analoga situazione in Francia. </br>
+Un altro ostacolo alla espulsione è il fatto che Battisti sia convivente con una cittadina brasiliana e padre di un minorenne di nazionalità brasiliana. 
+Nel giugno 2015 Battisti annuncia il matrimonio con la fidanzata storica Joice Lima Passos do Santos. Testimone di nozze, l'amico e avvocato Eduardo Matarazzo Suplicy, senatore del PT. Battisti avrebbe potuto ottenere, oltre al visto lavorativo permanente, anche la cittadinanza brasiliana, in questo caso prevista, su richiesta, dopo un anno. Questa gli viene negata però a causa delle condanne riportate e di irregolarità. </br>
+Il 14 settembre la sesta sezione del Tribunale Federale Regionale della Prima Regione (San Paolo) dichiara illegittimo l'arresto temporaneo di Battisti avvenuto nel marzo 2015 in seguito alla revoca del visto, in quanto la stessa sentenza di revoca con richiesta di espulsione era irregolare, poiché andava contro il pronunciamento in via definitiva del Tribunale supremo nel 2011. </br></p></div>
+  <div class="col-lg-3 col-md-3 col-sm-12"></div>
+	</div>
+
+<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-12"><p class="sub-title">L'ennesimo arresto</p></div>
+  <div class="col-lg-6 col-md-6 col-sm-12"><p><p class="capital">Il</p><p> 4 ottobre 2017 Cesare Battisti viene arrestato nella città di Corumbá nel Mato Grosso do Sul, al confine tra Brasile e Bolivia. Durante un normale controllo della Polizia Stradale Federale viene fermato mentre cerca di attraversare la frontiera con due amici violando quindi le condizioni di asilo in Brasile e venendo accusato di trasporto illegale di denaro e riciclaggio, accusa poi ritirata.
+Viene rilasciato tre giorni dopo, in seguito all'accoglimento provvisorio dell'istanza di habeas corpus preventivo, con l'obbligo di presentarsi mensilmente al tribunale della città di San Paolo, dove è posto in domicilio coatto a Cananéia in casa di amici (l'accademico Carlos Lungarzo e sua moglie), in attesa di pronuncia del Tribunale Supremo. </br>
+L'11 ottobre Temer annuncia di essere orientato a voler revocare il diritto d'asilo de facto e la residenza permanente. Battisti dichiara di non aver violato alcuna clausola, di essere sempre stato libero nei movimenti a rigore degli accordi di asilo, e che secondo lui l'estradizione sarebbe una "condanna a morte" indiretta a causa del "mostro" creato dai mass media italiani, ribadendo che: </br></p>
+<p class="quote">"Tutte le morti sono deplorevoli, ma non c'è motivo che io chieda scusa per qualcosa che hanno commesso altri"</p></div>
+  <div class="col-lg-3 col-md-3 col-sm-12"></div>
+	</div>
+
+
+
 	</div>
 	</section>
 
+	<div class="linea" id="5"></div>
+	<section>
+			<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-12"></div>
+  <div class="col-lg-6 col-md-6 col-sm-12"><p class="anno"><img src="Images/illustrazione5.gif" width="100%" height="100%" alt=""/>Parte 5.</br> <em>L'arresto definitivo</em> </p></div>
+  <div class="col-lg-3 col-md-3 col-sm-12"></div>
+	</div>	
+	
+	<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-12"><p class="sub-title">Bolsonaro:la riapertura del caso</p></div>
+  <div class="col-lg-6 col-md-6 col-sm-12"><p class="capital">N</p><p>ell'aprile 2018 Cesare Battisti e l'ex moglie Joice Lima sono sottoposti a revoca del passaporto e a misure restrittive per aver usato documenti falsi al matrimonio. In ottobre il candidato presidenziale Jair Bolsonaro promette l'estradizione del PAC in caso di sua elezione. A fine ottobre Battisti risulta irreperibile dalla sua abitazione a Cananéia.</p>
+  <p>Secondo il legale, Battisti si trova a San Paolo e "non ha bisogno di pronunciarsi in nessun modo", poiché "dispone di una decisione del Supremo Tribunale Federale (Stf) che garantisce la sua permanenza in Brasile", emessa nel 2017 da Luiz Fux, magistrato della suprema corte. In base a questa pronuncia, il governo brasiliano non può concedere l'estradizione fino a quando il Stf non avrà deciso se un Presidente ha la facoltà di modificare una decisione definitiva di non estradizione presa dal predecessore.</br>
+	<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="it" dir="ltr">Riaffermo qui il mio impegno di estradare il terrorista Cesare Battisti, amato dalla sinistra brasiliana, immediatamente in caso di vittoria alle elezioni. Mostreremo al mondo il nostro totale ripudio e impegno nella lotta al terrorismo. Il Brasile merita rispetto! <a href="https://t.co/2mZj8ARpWi">pic.twitter.com/2mZj8ARpWi</a></p>&mdash; Jair M. Bolsonaro (@jairbolsonaro) <a href="https://twitter.com/jairbolsonaro/status/1052205736493805568?ref_src=twsrc%5Etfw">October 16, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>	
+
+  <p>Il 14 dicembre l'Alta Corte ordina però l'arresto dell'ex terrorista, con un mandato emesso dallo stesso Luiz Fux, in quanto vi è pericolo di fuga, stabilendo la facoltà costituzionale del Presidente del Brasile di revocare i decreti dei predecessori. Il Presidente ancora in carica Temer ne ha quindi ordinato l'estradizione, ma l'ex terrorista risulta latitante.</p>
+  <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="it" dir="ltr">Grazie per la vostra considerazione, Ministro dell’Interno d&#39;Italia. Lascia che tutto si normalizzi brevemente nel caso di questo terrorista assassino difeso dai compagni degli ideali brasiliani! Conta su di noi! <a href="https://t.co/Vlygf7pygp">https://t.co/Vlygf7pygp</a></p>&mdash; Jair M. Bolsonaro (@jairbolsonaro) <a href="https://twitter.com/jairbolsonaro/status/1073537603591376896?ref_src=twsrc%5Etfw">December 14, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<p>Il neoeletto Presidente, non ancora in carica, Jair Bolsonaro fa intendere che il "piccolo regalo" promesso all'Italia durante la campagna elettorale è tra le priorità del Governo Brasiliano</p>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-12">	
+
+	  <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="it" dir="ltr">(🇮🇹ITA) Per essere rispettato a livello internazionale, il Brasile deve rispettare gli altri paesi. Estradare il terrorista Cesare Battisti, condannato per 4 omicidi, significa salvare la credibilità del Brasile. Sarebbe un atto di giustizia vestito come una scusa per l&#39;Italia. <a href="https://t.co/Syr30YbShF">https://t.co/Syr30YbShF</a></p>&mdash; Eduardo Bolsonaro🇧🇷 (@BolsonaroSP) <a href="https://twitter.com/BolsonaroSP/status/1056212299554451456?ref_src=twsrc%5Etfw">October 27, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	  
+</div>
+</div>
+		
+	<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-12"><p class="sub-title" >L'arresto in Bolivia</p></div>
+  <div class="col-lg-6 col-md-6 col-sm-12"><p class="capital">Il</p><p>12 gennaio 2019 Cesare Battisti viene arrestato dall'Interpol in collaborazione con la SCIP-Criminalpol, la DCPP-DIGOS e l'AISE a Santa Cruz, in Bolivia. Al momento dell'arresto indossava <a href="https://www.today.it/mondo/cesare-battisti-foto-segnaletiche.html">barba e baffi finti</a>. Il governo boliviano ne rifiuta l'asilo politico e ne ordina l'immediata espulsione verso l’Italia, dove viene trasferito il 14 gennaio dopo essere stato preso in custodia dalla polizia italiana; al suo arrivo viene condotto nel carcere di Oristano (inizialmente si era parlato di quello di Rebibbia) dagli uomini del GOM della Polizia Penitenziaria dove rimarrà in isolamento diurno per 6 mesi.    </p>
+
+ <a class="twitter-timeline" href="https://twitter.com/GaglioneAndrea/timelines/1134872315035103232?ref_src=twsrc%5Etfw">L&#39;arresto di Battisti - Curated tweets by GaglioneAndrea</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-12">
+
+	<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="it" dir="ltr">È fatta: è appena decollato da Santa Cruz l’aereo diretto a Roma con a bordo <a href="https://twitter.com/hashtag/CesareBattisti?src=hash&amp;ref_src=twsrc%5Etfw">#CesareBattisti</a></p>&mdash; Giuseppe Conte (@GiuseppeConteIT) <a href="https://twitter.com/GiuseppeConteIT/status/1084562298491031553?ref_src=twsrc%5Etfw">January 13, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+	</div>
+	</div>
+<hr />
+
+			<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-12"><p class="sub-title">L'arrivo in Italia</p></div>
+  <div class="col-lg-6 col-md-6 col-sm-12"><p></p><div class="embed-responsive embed-responsive-16by9">
+ 	<iframe width="560" height="315" src="https://www.youtube.com/embed/HDv9mQpUoRQ?start=8000" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+  <div class="col-lg-3 col-md-3 col-sm-12"><blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="it" dir="ltr">Finalmente Battisti è atterrato a <a href="https://twitter.com/hashtag/Ciampino?src=hash&amp;ref_src=twsrc%5Etfw">#Ciampino</a> e ha toccato il suolo italiano. Oggi diciamo al mondo che non ci si può sottrarre alla giustizia italiana. <a href="https://t.co/K6URoO6eyl">pic.twitter.com/K6URoO6eyl</a></p>&mdash; Alfonso Bonafede (@AlfonsoBonafede) <a href="https://twitter.com/AlfonsoBonafede/status/1084772362346745856?ref_src=twsrc%5Etfw">January 14, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+	</div>	
+<hr />
+			<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-12"><p class="sub-title">La confessione</p></div>
+  <div class="col-lg-6 col-md-6 col-sm-12">
+	  <p class="capital">In</p>
+	  <p> data 23.03.2019 alle ore 13,20 presso gli uffici della Casa di Reclusione S. Roro di Massama (Oristano), dinanzi allo scrivente dr. Alberto Nobilí, Coordinatore della Sezione Distrettuale Antiterrorismo di Milano, si svolge l’interrogatorio a Cesare Battisti in cui vengono confessati i reati confessati:</p>
+	  <p class="quote">“Per quanto riguarda i quattro omicidi che mi sono stati addebitati, ammetto le mie responsabilità."</p>
+	  <p> e poi aggiunge</p>
+	  <p class="quote">“sono stato sostenuto nella mia latitanza da partiti, gruppi d'intellettuali, soprattutto nel mondo editoriale, come sostegno ideologíco e logistico, Tra gli italiani nessuno mi ha mai aiutato o ha favorito la mia latitanza; io sono stato sostenuto per ragioni ideologiche di solidarìetà e posso anche dire che non so se queste persone si siano mai chieste se io fossi effettivamente responsabíle dei reati per cui sono stato condannato. Io ho sempre professato la mia innocenza e ciascuno è stato libero di interpretare questa mia proclamazione come meglio ha creduto, ma posso dire che per molti di questi il problema non si poneva, andava semplicemente sostenuta l mia ideologia dell'epoca dei fatti. Io sono stato appoggiato per una pluralità di ragioni che vanno sia dal fatto che mi proclamavo innocente, sia dal fatto che in molti Paesi esteri non è concepibile una condanna in contumacia e sia perché io cercavo di dare di me l'idea di un combattente della libertà, come io mi sentivo per i fatti degli anni '70. Posso dire che gli appoggi di cui ho goduto sono stati il più delle volte di carattere politico proprio per i motivi che ho detto prima, rafforzati dal fatto che io ero ritenuto un intellettuale, scrivevo libri, ero insomma una persona ideologícamente motivata, per cui nessuno sentiva il bisogno di agire contro di me. Questo mio ruolo da intellettuale era anche una precisa garanzia che, a prescindere dal mio passato, ero ormai una persona non più da ritenersi pericolosa e quindi, anche per questo motivo, nessuno mi ha dato la caccia. A titolo di esempío, ricordo che quando fui arrestato nel 2004 in Francia a fini estradizionali, e fui detenuto per 19 giorni, ci furono molte manifestazioni di píazza in mìo favore perché, per 14 anni, avevo operato in Francia a livello sociale culturale ed ero conosciuto per le mie battaglie contro degrado ed emarginazione. ADR escludo di aver mai avuto appoggí logistici o finanziari da soggetti italiani per favorìre la mía latitanza, Quando ero in Brasile mi fu anche contestato da un giudice che io avrei avuto rapporti con i servizi segreti francesí che mi avrebbero favorito, si tratta di pura fantasia.”</p>
+	  <p>Alla chiusura del verbale l’Ufficio chíede a Battisti Cesare se intenda rilasciare spontanee dichiarazioni.</p>
+	  <p class="quote">“Io non posso che chiedere scusa ai famigliari delle persone che ho ucciso o alle quali ho fatto del male perché penso che la lotta armata è stata un movimento disastroso che ha stroncato una rivoluzione culturale e sociale che aveva preso avvio nel 1968 con prospettive sicuramente posítive per íl Paese ma che proprìo la lotta armata contribuì a stroncare. Chiedo scusa pur non potendo rinnegare che in quell'epoca per me e per tutti gli altri che aderirono alla lotta arrnata si trattava di una guerra gìusta, oggi non posso che confermare quel disagio di cui ho parlato ieri nel ricostruire il mio passato e rìvivere momenti che non possono che suscitare una mia revisione di un passato che all'epoca ritenni gìusto. Parlare oggi di lotta armata per me è qualcosa privo di senso.”
+</p>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12"> <p class="title">I documenti ufficiali</p>
+	<a href="https://notizie.tiscali.it/export/sites/notizie/.galleries/pdf/Battisti-verbale_interrogatorio-23-03-2019_2.pdf">Verbale del 23.03.2019</a> </br>
+	<a href="https://notizie.tiscali.it/export/sites/notizie/.galleries/pdf/Battisti-verbale_interrogatorio-24-03-2019_1.pdf">Verbale del 24.03.2019</a>
+</div>
+	</div>	
+	</section>
+
+<div class="linea" id="6"></div>
+	<section>
+
+<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-12"></div>
+  <div class="col-lg-6 col-md-6 col-sm-12"><p class="anno"><img src="Images/illustrazione6.gif" width="100%" height="300px" alt=""/>Parte 6.</br> <em>Le reazioni dei Social</em> </p></div>
+  <div class="col-lg-3 col-md-3 col-sm-12"></div>
+	</div>	
+			<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-12"><p class="sub-title"></p></div>
+  <div class="col-lg-6 col-md-6 col-sm-12"><p>
+	  <p class="capital">L'</p><p> 
+	  arresto di Cesare Battisti ha generato scompiglio sui social network mostrando come la fuga dalla giustizia e quindi dal processo in tribunale sia stato in realtà l’inizio di un altro processo, quello mediatico che sembra non aver fine e che probabilmente è proprio ciò che rende il caso Battisti così interessante.</p></p>
+</div>
+
+  <div class="col-lg-3 col-md-3 col-sm-12">
+</div>
+	</div>
+<hr />
+
+	<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-12"><p class="sub-title"></p>
+			 <iframe class="facebook" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flegasalvinipremier%2Fposts%2F2279306472112266&width=auto" width="auto" height="auto" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+	  <hr />
+	  <a class="twitter-timeline" href="https://twitter.com/GaglioneAndrea/timelines/1134894895775268864?ref_src=twsrc%5Etfw">WuMing sul caso Battisti - Curated tweets by GaglioneAndrea</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	  
+		</div>
+  <div class="col-lg-6 col-md-6 col-sm-12">
+	  <a class="twitter-timeline" href="https://twitter.com/GaglioneAndrea/timelines/1134890870229131265?ref_src=twsrc%5Etfw">Gli schieramenti - Curated tweets by GaglioneAndrea</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	  <hr />
+	  <img src="Images/spazio70.png" width="100%" height="auto" alt=""/> 
+	  <img src="Images/Storace.png" width="100%" height="auto" alt=""/> 
+	  <img src="Images/sansonetti.png" width="100%" height="auto" alt=""/> 
+		</div>
+  <div class="col-lg-3 col-md-3 col-sm-12"><a class="twitter-timeline" href="https://twitter.com/GaglioneAndrea/timelines/1134880221813989376?ref_src=twsrc%5Etfw">Le reazioni - Curated tweets by GaglioneAndrea</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	   <hr />
+	   <img src="Images/Scanzi.png" width="100%" height="auto" alt=""/> </div>
+	</div>
+	</section>
 
 </body>
 </html>

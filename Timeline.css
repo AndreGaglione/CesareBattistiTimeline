@@ -1,30 +1,70 @@
 @charset "utf-8";
+@import url("GothamBold/stylesheet.css");
 @import url("EBGaramond_Regular/stylesheet.css");
+@import url("GothamLight/stylesheet.css");
+@import url("GothamMedium_1/stylesheet.css");
+@import url("GothamLight/stylesheet.css");
+
+
 /* CSS Document */
 
-.navbar{
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+.nav{
+	font-weight: bold;
+	font-size: small;
+	color: #E3E42A;
+	font-family: GothamLight;
 }
 
-body{
-	font-size: 12pt;
-	font-family: "EBGaramond Regular";
+#firma{
+	font-size: 14;
+	text-align: center;
+	font-variant: small-caps;
+	font-family: "GothamMedium 1";
+	margin-bottom: 5vh;
 }
+
+.body{
+	background-color: #F4F3E1;
+}
+
 p{
 	position: relative;
+	font-family: "EBGaramond Regular";
+	font-size: 15pt;
+	line-height: 22pt;
+}
+
+.quote{
+	font-style: italic;
+	font-weight: bold;
+	font-size: large;
+	text-align: left;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	padding-top: 2wh;
+	padding-bottom: 2wh;
 }
 
 #copertina{
-    width: 100%;
-	height: 50%;
 	position: relative;
+	margin-top: 40px;
+}
+video{
+	position:relative;
+	left:0;
+     top:0;
+	width:100%;
+	height:100%;
+	visibility: visible;
 }
 
+
 section{
-    padding-left: 5vw;
-    padding-right: 5vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
 	margin-top: 10vh;
-    margin-bottom: 10vh;
+	margin-bottom: 10vh;
+	
 }
 
 .capital{
@@ -39,13 +79,33 @@ section{
     min-width: 12%;
     text-align: center;
 }
+
+.title{
+	font-size: 25pt;
+	font-weight: bolder;
+	margin-bottom: 10%;
+}
 .anno{
+	text-align: center;
+	font-weight: bolder;
+	font-size: x-large;
+	margin-bottom: 10%;
+}
+.didas{
+	text-align: right;	
+	font-size: 12pt;
+}
+.sub-title{
     text-align: right;
     font-style: italic;
     font-weight: bold;
     font-size: large;
 }
 
+.lateral{
+	font-size: 12pt;
+	line-height: normal;
+}
 .linea{
     background-color: black;
     width: 50%;
@@ -54,4 +114,27 @@ section{
     /* [disabled]top: -7vh; */
     position: relative;
     
+}
+
+#piombo{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.book{
+	position: relative;
+	width: 25%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+
+.twitter-tweet{
+	position: relative;
+	margin-left: 10%;
+}
+
+.facebook{
+	position: relative;
+	width: 100%;
+	
 }
