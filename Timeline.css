@@ -37,7 +37,6 @@ p{
 .quote{
 	font-style: italic;
 	font-weight: bold;
-	font-size: large;
 	text-align: left;
 	padding-left: 2vw;
 	padding-right: 2vw;
@@ -68,16 +67,25 @@ section{
 }
 
 .capital{
-    float: left;
-    font-weight: bolder;
-    font-size: 450%;
-    /* [disabled]text-indent: 3%; */
-    height: 5vh;
-    width: 4vw;
-    line-height: 80%;
-    min-height: 4%;
-    min-width: 12%;
-    text-align: center;
+	float: left;
+	font-weight: bolder;
+	font-size: 450%;
+	/* [disabled]text-indent: 3%; */
+	height: 5vh;
+	width: 4vw;
+	line-height: 80%;
+	min-height: 5%;
+	min-width: 15%;
+	text-align: center;
+}
+
+.titolo{
+	text-align: center;
+	font-weight: bolder;
+	font-size: x-large;
+	margin-bottom: 15%;
+	font-size: 25pt;
+	font-variant: small-caps;
 }
 
 .title{
@@ -89,17 +97,18 @@ section{
 	text-align: center;
 	font-weight: bolder;
 	font-size: x-large;
-	margin-bottom: 10%;
+
+	font-variant: small-caps;
 }
 .didas{
 	text-align: right;	
 	font-size: 12pt;
 }
 .sub-title{
-    text-align: right;
-    font-style: italic;
-    font-weight: bold;
-    font-size: large;
+	text-align: right;
+	font-weight: bold;
+	font-size: large;
+	font-variant: small-caps;
 }
 
 .lateral{
@@ -130,7 +139,8 @@ section{
 
 .twitter-tweet{
 	position: relative;
-	margin-left: 10%;
+	width: 100%;
+	height: auto;
 }
 
 .facebook{
